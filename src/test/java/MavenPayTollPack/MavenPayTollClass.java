@@ -38,6 +38,7 @@ public class MavenPayTollClass extends PerfDB {
 	  @Test
 	  public void MavenFun() throws InterruptedException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 	  	
+		  System.out.println(888);
 	  	  myDB.connectDB("jdbc:mysql://atnsw-bench006:3306/monitoringdb", "perfmon", "123");
 	  	  myDB.initializeScriptExec("Pay Toll Notice", "Roads and Maritime Services");
 	  	  
